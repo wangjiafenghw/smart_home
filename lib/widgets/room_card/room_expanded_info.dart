@@ -28,7 +28,7 @@ class RoomExpandedInfo extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
-                const RoomDevices(),
+                RoomDevices(),
                 const RoomStatusLog()
               ],
             ),

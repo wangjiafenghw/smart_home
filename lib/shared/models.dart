@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 
 class Room {
   final int id;
@@ -10,5 +11,15 @@ class Room {
     this.name,
     this.image,
     this.devicesCount
+  });
+}
+
+class DeviceStyle {
+  final Color iconColor;
+  final Color textColor;
+
+  DeviceStyle({
+    this.iconColor,
+    this.textColor
   });
 }
